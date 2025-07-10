@@ -18,8 +18,8 @@ This repository implements a Model Context Protocol (MCP) server for Databricks 
 ## Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/mcp-databricks-server.git
-cd mcp-databricks-server
+git clone https://github.com/leraz-iter/databricks-mcp.git
+cd databricks-mcp
 ```
 
 2. Create a virtual environment (recommended):
