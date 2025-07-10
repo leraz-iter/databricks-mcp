@@ -64,14 +64,6 @@ Once running, connect via an MCP client (e.g., Claude Desktop or custom AI app).
 
 Example: "Run SELECT * FROM main.default.my_table" → Invokes `execute_sql_query`.
 
-## Testing
-Run the unit tests:
-```bash
-python -m unittest test_databricks_mcp.py
-```
-
-Update the test file with your actual host, token, and warehouse ID before running.
-
 ## Troubleshooting
 - If the warehouse is stopped, start it in the Databricks UI.
 - Check `.env` for correct credentials.
